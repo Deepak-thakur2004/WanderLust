@@ -181,6 +181,45 @@ const sampleListings = [
     location: "Boston",
     country: "United States",
   },
+  
+  {
+  title: "Arctic Glass Igloo",
+  category: "Arctic",
+  description: "Watch the Northern Lights from a cozy glass igloo.",
+  image: {
+    filename: "listingimage",
+    url: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=60",
+  },
+  price: 3500,
+  location: "Lapland",
+  country: "Finland",
+},
+{
+  title: "Snow Cabin Adventure",
+  category: "Arctic",
+  description:
+    "Experience the beauty of snowy landscapes and frozen lakes in this Arctic cabin.",
+ image: {
+  filename: "listingimage",
+  url: "https://images.unsplash.com/photo-1517299321609-52687d1bc55a?auto=format&fit=crop&w=800&q=60",
+},
+  price: 2800,
+  location: "Tromsø",
+  country: "Norway",
+},
+{
+  title: "Luxury Arctic Lodge",
+  category: "Arctic",
+  description:
+    "A warm and luxurious lodge surrounded by breathtaking Arctic scenery.",
+  image: {
+    filename: "listingimage",
+    url: "https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=800&q=60",
+  },
+  price: 4200,
+  location: "Reykjavik",
+  country: "Iceland",
+},
   {
     title: "Beachfront Bungalow in Bali",
     category: "Amazing pools", // Assigned to Amazing pools filter
@@ -350,6 +389,58 @@ const sampleListings = [
     location: "Maldives",
     country: "Maldives",
   },
+  {
+  title: "Luxury Beach House",
+  category: "Beach",
+  description:
+    "Enjoy a relaxing stay at this beautiful beach house with direct access to the sea.",
+  image: {
+    filename: "listingimage",
+    url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60",
+  },
+  price: 2200,
+  location: "Goa",
+  country: "India",
+},
+{
+  title: "Tropical Beach Resort",
+  category: "Beach",
+  description:
+    "Wake up to stunning ocean views and spend your days on white sandy beaches.",
+  image: {
+    filename: "listingimage",
+    url: "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=60",
+  },
+  price: 2800,
+  location: "Phuket",
+  country: "Thailand",
+},
+{
+  title: "Glass Dome Retreat",
+  category: "Domes",
+  description:
+    "Experience nature from a luxury glass dome with panoramic forest views.",
+  image: {
+    filename: "listingimage",
+    url: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60",
+  },
+  price: 1900,
+  location: "Lapland",
+  country: "Finland",
+},
+{
+  title: "Mountain Dome Stay",
+  category: "Domes",
+  description:
+    "A unique geodesic dome surrounded by mountains and fresh air.",
+  image: {
+    filename: "listingimage",
+    url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=60",
+  },
+  price: 1700,
+  location: "Manali",
+  country: "India",
+},
   {
     title: "Ski Chalet in Aspen",
     category: "Mountains", // Assigned to Mountains filter
